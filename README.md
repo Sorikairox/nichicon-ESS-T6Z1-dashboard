@@ -70,6 +70,7 @@ pnpm run monitor
 ### Screenshots
 
 [Screenshot: Dashboard Overview - Shows connection status and all devices]
+<img width="1920" height="1028" alt="Screenshot 2026-02-22 at 22 52 19" src="https://github.com/user-attachments/assets/cc318871-b77c-48c7-b853-4d1260916cf0" />
 <img width="1920" height="1028" alt="Screenshot 2026-02-22 at 22 28 19" src="https://github.com/user-attachments/assets/5f315ab6-8005-4dcf-b589-52707e1c1d30" />
 
 ## Architecture

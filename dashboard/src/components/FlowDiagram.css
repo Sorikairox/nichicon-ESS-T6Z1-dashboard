@@ -1,0 +1,281 @@
+.flow-diagram {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin: 24px 0;
+}
+
+.flow-diagram h2 {
+  margin: 0 0 24px 0;
+  color: #333;
+  font-size: 1.5rem;
+}
+
+.flow-container {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr 100px 1fr;
+  grid-template-rows: 1fr 80px 1fr;
+  gap: 20px;
+  align-items: center;
+  justify-items: center;
+  min-height: 400px;
+  position: relative;
+}
+
+/* Node Positioning */
+.flow-node.solar {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.flow-node.home {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.flow-node.grid {
+  grid-column: 5;
+  grid-row: 1;
+}
+
+.flow-node.battery {
+  grid-column: 3;
+  grid-row: 3;
+}
+
+/* Flow Lines Positioning */
+.flow-line.solar-to-home {
+  grid-column: 2;
+  grid-row: 1;
+  width: 100%;
+}
+
+.flow-line.home-to-grid {
+  grid-column: 4;
+  grid-row: 1;
+  width: 100%;
+}
+
+.flow-line.solar-to-battery {
+  grid-column: 1;
+  grid-row: 2;
+  height: 80px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.flow-line.battery-to-home {
+  grid-column: 3;
+  grid-row: 2;
+  height: 80px;
+}
+
+/* Node Styles */
+.flow-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  background: #f5f5f5;
+  border-radius: 12px;
+  min-width: 120px;
+  transition: all 0.3s ease;
+}
+
+.flow-node:hover {
+  background: #e8e8e8;
+  transform: scale(1.05);
+}
+
+.flow-node .icon {
+  width: 80px;
+  height: 80px;
+}
+
+.flow-node .icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.flow-node .label {
+  font-weight: 600;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.flow-node .value {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.flow-node.battery .value.charging {
+  color: #4CAF50;
+}
+
+.flow-node.battery .value.discharging {
+  color: #FF5722;
+}
+
+.flow-node.grid .value.exporting {
+  color: #FF9800;
+}
+
+/* Flow Line Styles */
+.flow-line {
+  position: relative;
+}
+
+.flow-path {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.flow-path svg {
+  width: 100%;
+  height: 100%;
+}
+
+.flow-path.vertical {
+  height: 100%;
+  width: 20px;
+}
+
+/* Flow Animation */
+.flow-animation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    transparent 40%,
+    rgba(255, 255, 255, 0.8) 50%,
+    transparent 60%,
+    transparent 100%
+  );
+  animation: flow-horizontal 2s linear infinite;
+}
+
+.flow-path.vertical .flow-animation {
+  background: linear-gradient(
+    180deg,
+    transparent 0%,
+    transparent 40%,
+    rgba(255, 255, 255, 0.8) 50%,
+    transparent 60%,
+    transparent 100%
+  );
+  animation: flow-vertical 2s linear infinite;
+}
+
+.flow-animation.discharge {
+  animation: flow-vertical-reverse 2s linear infinite;
+}
+
+@keyframes flow-horizontal {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes flow-vertical {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes flow-vertical-reverse {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+/* Flow Labels */
+.flow-label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #333;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .flow-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 40px;
+  }
+
+  .flow-node.solar,
+  .flow-node.home,
+  .flow-node.grid,
+  .flow-node.battery {
+    grid-column: 1;
+  }
+
+  .flow-node.solar {
+    grid-row: 1;
+  }
+
+  .flow-node.battery {
+    grid-row: 2;
+  }
+
+  .flow-node.home {
+    grid-row: 3;
+  }
+
+  .flow-node.grid {
+    grid-row: 4;
+  }
+
+  .flow-line {
+    display: none; /* Simplify on mobile */
+  }
+}
+
+@media (max-width: 768px) {
+  .flow-diagram {
+    padding: 16px;
+  }
+
+  .flow-node {
+    min-width: 100px;
+    padding: 12px;
+  }
+
+  .flow-node .icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .flow-node .value {
+    font-size: 1rem;
+  }
+}

@@ -1,6 +1,7 @@
 import { useSSE } from './hooks/useSSE';
 import { DeviceCard } from './components/DeviceCard';
 import { StatusBar } from './components/StatusBar';
+import { FlowDiagram } from './components/FlowDiagram';
 import './App.css';
 
 const API_URL = 'http://localhost:3000/echolite/status/stream';
@@ -33,6 +34,10 @@ function App() {
 
       {data && data.devices.length === 0 && (
         <div className="no-devices">No devices found</div>
+      )}
+
+      {data && data.devices.length > 0 && (
+        <FlowDiagram data={data} />
       )}
 
       {data && data.devices.map((device) => (

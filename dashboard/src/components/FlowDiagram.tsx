@@ -47,6 +47,8 @@ export function FlowDiagram({ data }: FlowDiagramProps) {
   const flows = calculateFlows(data);
   const isCharging = flows.batteryPower > 0; // Negative = charging
   const isDischarging = flows.batteryPower < 0; // Positive = discharging
+
+  console.log(isCharging, isDischarging)
   const isGenerating = flows.solarGeneration > 0;
   const isExporting = flows.toGrid > 0;
 

@@ -177,7 +177,7 @@
 }
 
 .flow-animation.discharge {
-  animation: flow-vertical-reverse 2s linear infinite;
+  animation: flow-vertical-reverse 2s linear infinite !important;
 }
 
 @keyframes flow-horizontal {

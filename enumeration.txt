@@ -1,0 +1,2197 @@
+[ [ 2, 125, 1 ], [ 2, 121, 1 ], [ 2, 165, 1 ] ]
+Found a device (192.168.0.243).
+group: 0x2, class: 0x7d
+Found a device (192.168.0.243).
+group: 0x2, class: 0x79
+Found a device (192.168.0.243).
+group: 0x2, class: 0xa5
+2:7d:f0
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 05|5\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |F0   |F0\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |02   |02'
+2:7d:d0
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 06|6\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |D0   |Rated electric energy\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 4D F8'
+2:7d:a0
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 07|7\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |A0   |A0\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 4D 8F'
+2:7d:80
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 08|8\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |80   |Operation status\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |30   |30\n' +
+  '  - OPS     |Operating status                |30   |ON'
+2:7d:c1
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 09|9\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |C1   |C1\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |01   |01'
+2:7d:a1
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 0A|10\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |A1   |A1\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 47 1B'
+2:7d:81
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 0B|11\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |81   |Installation location\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |60   |60\n' +
+  '  - LOC     |Installation location           |60   |Garden/perimeter'
+2:7d:f2
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 0C|12\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |F2   |F2\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |14   |14'
+2:7d:e2
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 0D|13\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |E2   |Remaining stored electricity 1\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 38 A4'
+2:7d:d2
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 0E|14\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |D2   |Rated voltage\n' +
+  '- PDC0      |Property data counter           |02   |02\n' +
+  '- EDT0      |Property value data             |01 26|01 26'
+2:7d:c2
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 0F|15\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |C2   |C2\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |01   |01'
+2:7d:a2
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 10|16\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |A2   |A2\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 3E 0C'
+2:7d:82
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 11|17\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |82   |Standard version information\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 51 01\n' +
+  '  - RLS     |Release order of the APPENDIX   |51   |Q'
+2:7d:d3
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 12|18\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |D3   |Measured instantaneous charging/discharging electric energy\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |FF ..|FF FF FE 39'
+2:7d:a3
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 13|19\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |A3   |A3\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 38 E2'
+2:7d:83
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 14|20\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |83   |Identification number\n' +
+  '- PDC0      |Property data counter           |11   |11\n' +
+  '- EDT0      |Property value data             |FE ..|FE 00 00 6C 42 49 57 55 72 69 6C 58 6C 50 71 4E 4A\n' +
+  '  - MAC     |Manufacturer code               |00 ..|00 00 6C\n' +
+  '  - UID     |Unique ID                       |42 ..|42 49 57 55 72 69 6C 58 6C 50 71 4E 4A'
+2:7d:f4
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 15|21\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |F4   |F4\n' +
+  '- PDC0      |Property data counter           |15   |15\n' +
+  '- EDT0      |Property value data             |00 ..|00 02 02 01 01 00 05 3B 06 00 00 32 02 01 00 01 01 01 02 00 32'
+2:7d:e4
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 16|22\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |E4   |Remaining stored electricity 3\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |49   |49'
+2:7d:a4
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 17|23\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |A4   |A4\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 16 0B'
+2:7d:f5
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 18|24\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |F5   |F5\n' +
+  '- PDC0      |Property data counter           |10   |10\n' +
+  '- EDT0      |Property value data             |FF ..|FF FF FF E1 00 00 01 E6 00 00 00 00 7F FF FF FF'
+2:7d:e5
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 19|25\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |E5   |Battery state of health\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |64   |64'
+2:7d:a5
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 1A|26\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |A5   |A5\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 24 AD'
+2:7d:e6
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 1B|27\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |E6   |Battery type\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |04   |04'
+2:7d:d6
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 1C|28\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |D6   |Measured cumulative discharging electric energy\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 A3 9C'
+2:7d:86
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 1D|29\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |86   |Manufacturer’s fault code\n' +
+  '- PDC0      |Property data counter           |09   |09\n' +
+  '- EDT0      |Property value data             |05 ..|05 00 00 6C 42 45 30 30 30\n' +
+  '  - LEN     |Data size of the fault code fi..|05   |5\n' +
+  '  - MAC     |Manufacturer code               |00 ..|00 00 6C\n' +
+  '  - FAC     |Manufacturer-defined fault code |42 ..|42 45 30 30 30'
+2:7d:e7
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 1E|30\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |E7   |Charging amount setting 1\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |3B ..|3B 9A C9 FF'
+2:7d:97
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 1F|31\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |97   |Current time setting\n' +
+  '- PDC0      |Property data counter           |02   |02\n' +
+  '- EDT0      |Property value data             |13 36|13 36\n' +
+  '  - H       |Hour                            |13   |19\n' +
+  '  - M       |Minute                          |36   |54'
+2:7d:f8
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 20|32\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |F8   |F8\n' +
+  '- PDC0      |Property data counter           |09   |09\n' +
+  '- EDT0      |Property value data             |02 ..|02 01 00 01 01 01 02 00 32'
+2:7d:e8
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 21|33\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |E8   |Discharging amount setting 1\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |3B ..|3B 9A C9 FF'
+2:7d:d8
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 22|34\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |D8   |Measured cumulative charging electric energy\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 CE A2'
+2:7d:c8
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 23|35\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |C8   |Minimum/maxim um charging electric energy\n' +
+  '- PDC0      |Property data counter           |08   |08\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 00 00 00 00 17 0C'
+2:7d:a8
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 24|36\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |A8   |A8\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 D9 82'
+2:7d:98
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 25|37\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |98   |Current date setting\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |07 ..|07 EA 02 16\n' +
+  '  - Y       |Year                            |07 EA|2026\n' +
+  '  - M       |Month                           |02   |2\n' +
+  '  - D       |Day                             |16   |22'
+2:7d:88
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 26|38\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |88   |Fault status\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |42   |42\n' +
+  '  - FS      |Fault status                    |42   |No fault encountered'
+2:7d:c9
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 27|39\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |C9   |Minimum/maxim um discharging electric energy\n' +
+  '- PDC0      |Property data counter           |08   |08\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 00 00 00 00 17 0C'
+2:7d:a9
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 28|40\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |A9   |A9\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 9C 3F'
+2:7d:89
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 29|41\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |89   |Fault description\n' +
+  '- PDC0      |Property data counter           |02   |02\n' +
+  '- EDT0      |Property value data             |00 00|00 00\n' +
+  '  - FC      |Fault content                   |00 00|No fault'
+2:7d:da
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 2A|42\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |DA   |Operation mode setting\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |46   |46'
+2:7d:aa
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 2B|43\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |AA   |AA\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 00 00'
+2:7d:8a
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 2C|44\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |8A   |Manufacturer code\n' +
+  '- PDC0      |Property data counter           |03   |03\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 6C\n' +
+  '  - MAC     |Manufacturer code               |00 ..|00 00 6C'
+2:7d:eb
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 2D|45\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |EB   |Charging electric energy setting\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 17 0C'
+2:7d:db
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 2E|46\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |DB   |System-interconne cted type\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |02   |02'
+2:7d:ab
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 2F|47\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |AB   |AB\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 00 00'
+2:7d:ec
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 30|48\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |EC   |Discharging electric energy setting\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 17 0C'
+2:7d:dc
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 31|49\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |DC   |Minimum/maxim um charging power (Independent)\n' +
+  '- PDC0      |Property data counter           |08   |08\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 00 00 00 00 17 0C'
+2:7d:8c
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 32|50\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |8C   |Product code\n' +
+  '- PDC0      |Property data counter           |0C   |0C\n' +
+  '- EDT0      |Property value data             |45 ..|45 53 53 2D 54 36 5A 31 20 20 20 20\n' +
+  '  - PRC     |Product code                    |45 ..|ESS-T6Z1    '
+2:7d:dd
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 33|51\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |DD   |Minimum/maxim um discharging power (Independent)\n' +
+  '- PDC0      |Property data counter           |08   |08\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 00 00 00 00 17 0C'
+2:7d:9d
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 34|52\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |9D   |Status change announcement property map\n' +
+  '- PDC0      |Property data counter           |0D   |0D\n' +
+  '- EDT0      |Property value data             |0C ..|0C 80 81 88 AA AB C1 C2 CF DA F0 F2 F4\n' +
+  '  - NUM     |Number of properties            |0C   |12\n' +
+  '  - EPC     |Property codes                  |80 ..|80 81 88 AA AB C1 C2 CF DA F0 F2 F4\n' +
+  '    - EPC0  |EPC0                            |80   |Operation status\n' +
+  '    - EPC1  |EPC1                            |81   |Installation location\n' +
+  '    - EPC2  |EPC2                            |88   |Fault status\n' +
+  '    - EPC3  |EPC3                            |AA   |AA\n' +
+  '    - EPC4  |EPC4                            |AB   |AB\n' +
+  '    - EPC5  |EPC5                            |C1   |C1\n' +
+  '    - EPC6  |EPC6                            |C2   |C2\n' +
+  '    - EPC7  |EPC7                            |CF   |Working operation status\n' +
+  '    - EPC8  |EPC8                            |DA   |Operation mode setting\n' +
+  '    - EPC9  |EPC9                            |F0   |F0\n' +
+  '    - EPC10 |EPC10                           |F2   |F2\n' +
+  '    - EPC11 |EPC11                           |F4   |F4'
+2:7d:8d
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 35|53\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |8D   |Production number\n' +
+  '- PDC0      |Property data counter           |0C   |0C\n' +
+  '- EDT0      |Property value data             |4E ..|4E 4B 2D 31 30 31 32 38 30 50 45 53\n' +
+  '  - PRN     |Production number               |4E ..|NK-101280PES'
+2:7d:9e
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 36|54\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |9E   |Set property map\n' +
+  '- PDC0      |Property data counter           |11   |11\n' +
+  '- EDT0      |Property value data             |11 ..|11 00 11 90 00 80 00 00 62 C2 20 24 44 40 00 00 00\n' +
+  '  - NUM     |Number of properties            |11   |17\n' +
+  '  - EPC     |Property codes                  |00 ..|00 11 90 00 80 00 00 62 C2 20 24 44 40 00 00 00\n' +
+  '    - EPC0  |EPC0                            |C1   |C1\n' +
+  '    - EPC1  |EPC1                            |81   |Installation location\n' +
+  '    - EPC2  |EPC2                            |F2   |F2\n' +
+  '    - EPC3  |EPC3                            |C2   |C2\n' +
+  '    - EPC4  |EPC4                            |F4   |F4\n' +
+  '    - EPC5  |EPC5                            |E7   |Charging amount setting 1\n' +
+  '    - EPC6  |EPC6                            |D7   |“Measured cumulative discharging electric energy” reset setting\n' +
+  '    - EPC7  |EPC7                            |97   |Current time setting\n' +
+  '    - EPC8  |EPC8                            |F8   |F8\n' +
+  '    - EPC9  |EPC9                            |E8   |Discharging amount setting 1\n' +
+  '    - EPC10 |EPC10                           |98   |Current date setting\n' +
+  '    - EPC11 |EPC11                           |D9   |“Measured cumulative charging electric energy” reset setting\n' +
+  '    - EPC12 |EPC12                           |DA   |Operation mode setting\n' +
+  '    - EPC13 |EPC13                           |AA   |AA\n' +
+  '    - EPC14 |EPC14                           |EB   |Charging electric energy setting\n' +
+  '    - EPC15 |EPC15                           |AB   |AB\n' +
+  '    - EPC16 |EPC16                           |EC   |Discharging electric energy setting'
+2:7d:cf
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 37|55\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |CF   |Working operation status\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |43   |43'
+2:7d:9f
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 38|56\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 7D 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |7D   |Storage battery class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |9F   |Get property map\n' +
+  '- PDC0      |Property data counter           |11   |11\n' +
+  '- EDT0      |Property value data             |34 ..|34 A5 15 F5 25 C4 C4 61 42 F7 15 25 64 61 23 02 12\n' +
+  '  - NUM     |Number of properties            |34   |52\n' +
+  '  - EPC     |Property codes                  |A5 ..|A5 15 F5 25 C4 C4 61 42 F7 15 25 64 61 23 02 12\n' +
+  '    - EPC0  |EPC0                            |F0   |F0\n' +
+  '    - EPC1  |EPC1                            |D0   |Rated electric energy\n' +
+  '    - EPC2  |EPC2                            |A0   |A0\n' +
+  '    - EPC3  |EPC3                            |80   |Operation status\n' +
+  '    - EPC4  |EPC4                            |C1   |C1\n' +
+  '    - EPC5  |EPC5                            |A1   |A1\n' +
+  '    - EPC6  |EPC6                            |81   |Installation location\n' +
+  '    - EPC7  |EPC7                            |F2   |F2\n' +
+  '    - EPC8  |EPC8                            |E2   |Remaining stored electricity 1\n' +
+  '    - EPC9  |EPC9                            |D2   |Rated voltage\n' +
+  '    - EPC10 |EPC10                           |C2   |C2\n' +
+  '    - EPC11 |EPC11                           |A2   |A2\n' +
+  '    - EPC12 |EPC12                           |82   |Standard version information\n' +
+  '    - EPC13 |EPC13                           |D3   |Measured instantaneous charging/discharging electric energy\n' +
+  '    - EPC14 |EPC14                           |A3   |A3\n' +
+  '    - EPC15 |EPC15                           |83   |Identification number\n' +
+  '    - EPC16 |EPC16                           |F4   |F4\n' +
+  '    - EPC17 |EPC17                           |E4   |Remaining stored electricity 3\n' +
+  '    - EPC18 |EPC18                           |A4   |A4\n' +
+  '    - EPC19 |EPC19                           |F5   |F5\n' +
+  '    - EPC20 |EPC20                           |E5   |Battery state of health\n' +
+  '    - EPC21 |EPC21                           |A5   |A5\n' +
+  '    - EPC22 |EPC22                           |E6   |Battery type\n' +
+  '    - EPC23 |EPC23                           |D6   |Measured cumulative discharging electric energy\n' +
+  '    - EPC24 |EPC24                           |86   |Manufacturer’s fault code\n' +
+  '    - EPC25 |EPC25                           |E7   |Charging amount setting 1\n' +
+  '    - EPC26 |EPC26                           |97   |Current time setting\n' +
+  '    - EPC27 |EPC27                           |F8   |F8\n' +
+  '    - EPC28 |EPC28                           |E8   |Discharging amount setting 1\n' +
+  '    - EPC29 |EPC29                           |D8   |Measured cumulative charging electric energy\n' +
+  '    - EPC30 |EPC30                           |C8   |Minimum/maxim um charging electric energy\n' +
+  '    - EPC31 |EPC31                           |A8   |A8\n' +
+  '    - EPC32 |EPC32                           |98   |Current date setting\n' +
+  '    - EPC33 |EPC33                           |88   |Fault status\n' +
+  '    - EPC34 |EPC34                           |C9   |Minimum/maxim um discharging electric energy\n' +
+  '    - EPC35 |EPC35                           |A9   |A9\n' +
+  '    - EPC36 |EPC36                           |89   |Fault description\n' +
+  '    - EPC37 |EPC37                           |DA   |Operation mode setting\n' +
+  '    - EPC38 |EPC38                           |AA   |AA\n' +
+  '    - EPC39 |EPC39                           |8A   |Manufacturer code\n' +
+  '    - EPC40 |EPC40                           |EB   |Charging electric energy setting\n' +
+  '    - EPC41 |EPC41                           |DB   |System-interconne cted type\n' +
+  '    - EPC42 |EPC42                           |AB   |AB\n' +
+  '    - EPC43 |EPC43                           |EC   |Discharging electric energy setting\n' +
+  '    - EPC44 |EPC44                           |DC   |Minimum/maxim um charging power (Independent)\n' +
+  '    - EPC45 |EPC45                           |8C   |Product code\n' +
+  '    - EPC46 |EPC46                           |DD   |Minimum/maxim um discharging power (Independent)\n' +
+  '    - EPC47 |EPC47                           |9D   |Status change announcement property map\n' +
+  '    - EPC48 |EPC48                           |8D   |Production number\n' +
+  '    - EPC49 |EPC49                           |9E   |Set property map\n' +
+  '    - EPC50 |EPC50                           |CF   |Working operation status\n' +
+  '    - EPC51 |EPC51                           |9F   |Get property map'
+2:79:f0
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 39|57\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |F0   |F0\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |01 ..|01 00 FF FF'
+2:79:e0
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 3A|58\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |E0   |Measured instantaneous amount of electricity generated\n' +
+  '- PDC0      |Property data counter           |02   |02\n' +
+  '- EDT0      |Property value data             |00 00|00 00'
+2:79:d0
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 3B|59\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |D0   |System-interconnected type\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |00   |00'
+2:79:c0
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 3C|60\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |C0   |C0\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |5F   |5F'
+2:79:b0
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 3D|61\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |B0   |B0\n' +
+  '- PDC0      |Property data counter           |64   |64\n' +
+  '- EDT0      |Property value data             |FF ..|FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF'
+2:79:a0
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 3E|62\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |A0   |A0\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |64   |64'
+2:79:80
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 3F|63\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |80   |Operation status\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |30   |30\n' +
+  '  - OPS     |Operating status                |30   |ON'
+2:79:f1
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 40|64\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |F1   |F1\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |0A ..|0A FF FF FF'
+2:79:e1
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 41|65\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |E1   |Measured cumulative amount of electric energy generated\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 01 AC 9D'
+2:79:d1
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 42|66\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |D1   |D1\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |44   |44'
+2:79:c1
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 43|67\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |C1   |C1\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |41   |41'
+2:79:b1
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 44|68\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |B1   |B1\n' +
+  '- PDC0      |Property data counter           |07   |07\n' +
+  '- EDT0      |Property value data             |FF ..|FF FF FF FF FF FF FF'
+2:79:81
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 45|69\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |81   |Installation location\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |60   |60\n' +
+  '  - LOC     |Installation location           |60   |Garden/perimeter'
+2:79:c2
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 46|70\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |C2   |C2\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |41   |41'
+2:79:b2
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 47|71\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |B2   |B2\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |41   |41'
+2:79:a2
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 48|72\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |A2   |A2\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |41   |41'
+2:79:82
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 49|73\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |82   |Standard version information\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 51 01\n' +
+  '  - RLS     |Release order of the APPENDIX   |51   |Q'
+2:79:e3
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 4A|74\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |E3   |Measured cumulative amount of electric energy sold\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 5C B6'
+2:79:c3
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 4B|75\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |C3   |C3\n' +
+  '- PDC0      |Property data counter           |02   |02\n' +
+  '- EDT0      |Property value data             |26 AC|26 AC'
+2:79:b3
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 4C|76\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |B3   |B3\n' +
+  '- PDC0      |Property data counter           |02   |02\n' +
+  '- EDT0      |Property value data             |02 58|02 58'
+2:79:83
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 4D|77\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |83   |Identification number\n' +
+  '- PDC0      |Property data counter           |11   |11\n' +
+  '- EDT0      |Property value data             |FE ..|FE 00 00 6C 42 43 59 68 53 59 09 48 47 61 4A 50 70\n' +
+  '  - MAC     |Manufacturer code               |00 ..|00 00 6C\n' +
+  '  - UID     |Unique ID                       |42 ..|42 43 59 68 53 59 09 48 47 61 4A 50 70'
+2:79:b4
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 4E|78\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |B4   |B4\n' +
+  '- PDC0      |Property data counter           |02   |02\n' +
+  '- EDT0      |Property value data             |26 AC|26 AC'
+2:79:f5
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 4F|79\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |F5   |F5\n' +
+  '- PDC0      |Property data counter           |10   |10\n' +
+  '- EDT0      |Property value data             |FF ..|FF FF FF E1 00 00 01 E6 00 00 00 00 7F FF FF FF'
+2:79:86
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 50|80\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |86   |Manufacturer’s fault code\n' +
+  '- PDC0      |Property data counter           |09   |09\n' +
+  '- EDT0      |Property value data             |05 ..|05 00 00 6C 42 45 30 30 30\n' +
+  '  - LEN     |Data size of the fault code fi..|05   |5\n' +
+  '  - MAC     |Manufacturer code               |00 ..|00 00 6C\n' +
+  '  - FAC     |Manufacturer-defined fault code |42 ..|42 45 30 30 30'
+2:79:97
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 51|81\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |97   |Current time setting\n' +
+  '- PDC0      |Property data counter           |02   |02\n' +
+  '- EDT0      |Property value data             |13 36|13 36\n' +
+  '  - H       |Hour                            |13   |19\n' +
+  '  - M       |Minute                          |36   |54'
+2:79:e8
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 52|82\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |E8   |Rated power generation output (System-interconnected)\n' +
+  '- PDC0      |Property data counter           |02   |02\n' +
+  '- EDT0      |Property value data             |26 AC|26 AC'
+2:79:98
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 53|83\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |98   |Current date setting\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |07 ..|07 EA 02 16\n' +
+  '  - Y       |Year                            |07 EA|2026\n' +
+  '  - M       |Month                           |02   |2\n' +
+  '  - D       |Day                             |16   |22'
+2:79:88
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 54|84\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |88   |Fault status\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |42   |42\n' +
+  '  - FS      |Fault status                    |42   |No fault encountered'
+2:79:89
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 55|85\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |89   |Fault description\n' +
+  '- PDC0      |Property data counter           |02   |02\n' +
+  '- EDT0      |Property value data             |00 00|00 00\n' +
+  '  - FC      |Fault content                   |00 00|No fault'
+2:79:8a
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 56|86\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |8A   |Manufacturer code\n' +
+  '- PDC0      |Property data counter           |03   |03\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 6C\n' +
+  '  - MAC     |Manufacturer code               |00 ..|00 00 6C'
+2:79:8c
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 57|87\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |8C   |Product code\n' +
+  '- PDC0      |Property data counter           |0C   |0C\n' +
+  '- EDT0      |Property value data             |45 ..|45 53 53 2D 54 36 5A 31 20 20 20 20\n' +
+  '  - PRC     |Product code                    |45 ..|ESS-T6Z1    '
+2:79:9d
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 58|88\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |9D   |Status change announcement property map\n' +
+  '- PDC0      |Property data counter           |07   |07\n' +
+  '- EDT0      |Property value data             |06 ..|06 80 81 88 B1 F0 F1\n' +
+  '  - NUM     |Number of properties            |06   |6\n' +
+  '  - EPC     |Property codes                  |80 ..|80 81 88 B1 F0 F1\n' +
+  '    - EPC0  |EPC0                            |80   |Operation status\n' +
+  '    - EPC1  |EPC1                            |81   |Installation location\n' +
+  '    - EPC2  |EPC2                            |88   |Fault status\n' +
+  '    - EPC3  |EPC3                            |B1   |B1\n' +
+  '    - EPC4  |EPC4                            |F0   |F0\n' +
+  '    - EPC5  |EPC5                            |F1   |F1'
+2:79:8d
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 59|89\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |8D   |Production number\n' +
+  '- PDC0      |Property data counter           |0C   |0C\n' +
+  '- EDT0      |Property value data             |4E ..|4E 4A 2D 31 30 30 32 38 31 57 45 4C\n' +
+  '  - PRN     |Production number               |4E ..|NJ-100281WEL'
+2:79:9e
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 5A|90\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |9E   |Set property map\n' +
+  '- PDC0      |Property data counter           |07   |07\n' +
+  '- EDT0      |Property value data             |06 ..|06 81 97 98 A0 C1 F1\n' +
+  '  - NUM     |Number of properties            |06   |6\n' +
+  '  - EPC     |Property codes                  |81 ..|81 97 98 A0 C1 F1\n' +
+  '    - EPC0  |EPC0                            |81   |Installation location\n' +
+  '    - EPC1  |EPC1                            |97   |Current time setting\n' +
+  '    - EPC2  |EPC2                            |98   |Current date setting\n' +
+  '    - EPC3  |EPC3                            |A0   |A0\n' +
+  '    - EPC4  |EPC4                            |C1   |C1\n' +
+  '    - EPC5  |EPC5                            |F1   |F1'
+2:79:9f
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 5B|91\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 79 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |79   |Home solar power generation class\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |9F   |Get property map\n' +
+  '- PDC0      |Property data counter           |11   |11\n' +
+  '- EDT0      |Property value data             |23 ..|23 FD F9 1D 59 08 80 01 02 43 01 01 00 01 03 02 02\n' +
+  '  - NUM     |Number of properties            |23   |35\n' +
+  '  - EPC     |Property codes                  |FD ..|FD F9 1D 59 08 80 01 02 43 01 01 00 01 03 02 02\n' +
+  '    - EPC0  |EPC0                            |F0   |F0\n' +
+  '    - EPC1  |EPC1                            |E0   |Measured instantaneous amount of electricity generated\n' +
+  '    - EPC2  |EPC2                            |D0   |System-interconnected type\n' +
+  '    - EPC3  |EPC3                            |C0   |C0\n' +
+  '    - EPC4  |EPC4                            |B0   |B0\n' +
+  '    - EPC5  |EPC5                            |A0   |A0\n' +
+  '    - EPC6  |EPC6                            |80   |Operation status\n' +
+  '    - EPC7  |EPC7                            |F1   |F1\n' +
+  '    - EPC8  |EPC8                            |E1   |Measured cumulative amount of electric energy generated\n' +
+  '    - EPC9  |EPC9                            |D1   |D1\n' +
+  '    - EPC10 |EPC10                           |C1   |C1\n' +
+  '    - EPC11 |EPC11                           |B1   |B1\n' +
+  '    - EPC12 |EPC12                           |81   |Installation location\n' +
+  '    - EPC13 |EPC13                           |C2   |C2\n' +
+  '    - EPC14 |EPC14                           |B2   |B2\n' +
+  '    - EPC15 |EPC15                           |A2   |A2\n' +
+  '    - EPC16 |EPC16                           |82   |Standard version information\n' +
+  '    - EPC17 |EPC17                           |E3   |Measured cumulative amount of electric energy sold\n' +
+  '    - EPC18 |EPC18                           |C3   |C3\n' +
+  '    - EPC19 |EPC19                           |B3   |B3\n' +
+  '    - EPC20 |EPC20                           |83   |Identification number\n' +
+  '    - EPC21 |EPC21                           |B4   |B4\n' +
+  '    - EPC22 |EPC22                           |F5   |F5\n' +
+  '    - EPC23 |EPC23                           |86   |Manufacturer’s fault code\n' +
+  '    - EPC24 |EPC24                           |97   |Current time setting\n' +
+  '    - EPC25 |EPC25                           |E8   |Rated power generation output (System-interconnected)\n' +
+  '    - EPC26 |EPC26                           |98   |Current date setting\n' +
+  '    - EPC27 |EPC27                           |88   |Fault status\n' +
+  '    - EPC28 |EPC28                           |89   |Fault description\n' +
+  '    - EPC29 |EPC29                           |8A   |Manufacturer code\n' +
+  '    - EPC30 |EPC30                           |8C   |Product code\n' +
+  '    - EPC31 |EPC31                           |9D   |Status change announcement property map\n' +
+  '    - EPC32 |EPC32                           |8D   |Production number\n' +
+  '    - EPC33 |EPC33                           |9E   |Set property map\n' +
+  '    - EPC34 |EPC34                           |9F   |Get property map'
+2:a5:e0
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 5C|92\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |E0   |E0\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 01 18'
+2:a5:d0
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 5D|93\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |D0   |D0\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |00   |00'
+2:a5:80
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 5E|94\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |80   |Operation status\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |30   |30\n' +
+  '  - OPS     |Operating status                |30   |ON'
+2:a5:81
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 5F|95\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |81   |Installation location\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |60   |60\n' +
+  '  - LOC     |Installation location           |60   |Garden/perimeter'
+2:a5:82
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 60|96\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |82   |Standard version information\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 51 01\n' +
+  '  - RLS     |Release order of the APPENDIX   |51   |Q'
+2:a5:e3
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 61|97\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |E3   |E3\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |00 ..|00 01 79 45'
+2:a5:83
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 62|98\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |83   |Identification number\n' +
+  '- PDC0      |Property data counter           |11   |11\n' +
+  '- EDT0      |Property value data             |FE ..|FE 00 00 6C 42 6C 38 09 09 09 4D 65 45 6C 72 65 65\n' +
+  '  - MAC     |Manufacturer code               |00 ..|00 00 6C\n' +
+  '  - UID     |Unique ID                       |42 ..|42 6C 38 09 09 09 4D 65 45 6C 72 65 65'
+2:a5:f5
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 63|99\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |F5   |F5\n' +
+  '- PDC0      |Property data counter           |10   |10\n' +
+  '- EDT0      |Property value data             |FF ..|FF FF FF E2 00 00 01 E5 00 00 00 00 7F FF FF FF'
+2:a5:f6
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 64|100\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |F6   |F6\n' +
+  '- PDC0      |Property data counter           |20   |20\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 0B 67 00 00 5C B6 FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF'
+2:a5:86
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 65|101\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |86   |Manufacturer’s fault code\n' +
+  '- PDC0      |Property data counter           |09   |09\n' +
+  '- EDT0      |Property value data             |05 ..|05 00 00 6C 42 45 30 30 30\n' +
+  '  - LEN     |Data size of the fault code fi..|05   |5\n' +
+  '  - MAC     |Manufacturer code               |00 ..|00 00 6C\n' +
+  '  - FAC     |Manufacturer-defined fault code |42 ..|42 45 30 30 30'
+2:a5:e7
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 66|102\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |E7   |E7\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |FF ..|FF FF FE 39'
+2:a5:97
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 67|103\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |97   |Current time setting\n' +
+  '- PDC0      |Property data counter           |02   |02\n' +
+  '- EDT0      |Property value data             |13 36|13 36\n' +
+  '  - H       |Hour                            |13   |19\n' +
+  '  - M       |Minute                          |36   |54'
+2:a5:e8
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 68|104\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |E8   |E8\n' +
+  '- PDC0      |Property data counter           |07   |07\n' +
+  '- EDT0      |Property value data             |02 ..|02 02 79 01 02 7D 01'
+2:a5:98
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 69|105\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |98   |Current date setting\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |07 ..|07 EA 02 16\n' +
+  '  - Y       |Year                            |07 EA|2026\n' +
+  '  - M       |Month                           |02   |2\n' +
+  '  - D       |Day                             |16   |22'
+2:a5:88
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 6A|106\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |88   |Fault status\n' +
+  '- PDC0      |Property data counter           |01   |01\n' +
+  '- EDT0      |Property value data             |42   |42\n' +
+  '  - FS      |Fault status                    |42   |No fault encountered'
+2:a5:89
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 6B|107\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |89   |Fault description\n' +
+  '- PDC0      |Property data counter           |02   |02\n' +
+  '- EDT0      |Property value data             |00 00|00 00\n' +
+  '  - FC      |Fault content                   |00 00|No fault'
+2:a5:8a
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 6C|108\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |8A   |Manufacturer code\n' +
+  '- PDC0      |Property data counter           |03   |03\n' +
+  '- EDT0      |Property value data             |00 ..|00 00 6C\n' +
+  '  - MAC     |Manufacturer code               |00 ..|00 00 6C'
+2:a5:8c
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 6D|109\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |8C   |Product code\n' +
+  '- PDC0      |Property data counter           |0C   |0C\n' +
+  '- EDT0      |Property value data             |45 ..|45 53 53 2D 54 36 5A 31 20 20 20 20\n' +
+  '  - PRC     |Product code                    |45 ..|ESS-T6Z1    '
+2:a5:9d
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 6E|110\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |9D   |Status change announcement property map\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |03 ..|03 80 81 88\n' +
+  '  - NUM     |Number of properties            |03   |3\n' +
+  '  - EPC     |Property codes                  |80 ..|80 81 88\n' +
+  '    - EPC0  |EPC0                            |80   |Operation status\n' +
+  '    - EPC1  |EPC1                            |81   |Installation location\n' +
+  '    - EPC2  |EPC2                            |88   |Fault status'
+2:a5:8d
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 6F|111\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |8D   |Production number\n' +
+  '- PDC0      |Property data counter           |0C   |0C\n' +
+  '- EDT0      |Property value data             |4E ..|4E 4A 2D 31 30 30 32 38 31 57 45 4C\n' +
+  '  - PRN     |Production number               |4E ..|NJ-100281WEL'
+2:a5:9e
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 70|112\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |9E   |Set property map\n' +
+  '- PDC0      |Property data counter           |04   |04\n' +
+  '- EDT0      |Property value data             |03 ..|03 81 97 98\n' +
+  '  - NUM     |Number of properties            |03   |3\n' +
+  '  - EPC     |Property codes                  |81 ..|81 97 98\n' +
+  '    - EPC0  |EPC0                            |81   |Installation location\n' +
+  '    - EPC1  |EPC1                            |97   |Current time setting\n' +
+  '    - EPC2  |EPC2                            |98   |Current date setting'
+2:a5:9f
+'- EHD1      |ECHONET Lite message header 1   |10   |Conventional ECHONET Lite Specification\n' +
+  '- EHD2      |ECHONET Lite message header 2   |81   |Format 1 (specified message format)\n' +
+  '- TID       |Transaction ID                  |00 71|113\n' +
+  '- SEOJ      |Source ECHONET Lite object spe..|02 ..|02 A5 01\n' +
+  '  - SEOJX1  |Source class group code         |02   |Housing/facility-related device class group\n' +
+  '  - SEOJX2  |Source class code               |A5   |A5\n' +
+  '  - SEOJX3  |Source instance code            |01   |1\n' +
+  '- DEOJ      |Destination ECHONET Lite objec..|05 ..|05 FF 01\n' +
+  '  - DEOJX1  |Destination class group code    |05   |Management/control-related device class group\n' +
+  '  - DEOJX2  |Destination class code          |FF   |Controller class\n' +
+  '  - DEOJX3  |Destination instance code       |01   |1\n' +
+  '- DEOJX3    |Destination instance code       |01   |1\n' +
+  '- ESV       |ECHONET Lite service            |72   |Property value read response (Get_Res)\n' +
+  '- OPC       |Number of processing properties |01   |1\n' +
+  '- EPC0      |ECHONET Lite Property           |9F   |Get property map\n' +
+  '- PDC0      |Property data counter           |11   |11\n' +
+  '- EDT0      |Property value data             |16 ..|16 61 01 01 41 00 80 81 42 43 01 01 00 01 03 02 02\n' +
+  '  - NUM     |Number of properties            |16   |22\n' +
+  '  - EPC     |Property codes                  |61 ..|61 01 01 41 00 80 81 42 43 01 01 00 01 03 02 02\n' +
+  '    - EPC0  |EPC0                            |E0   |E0\n' +
+  '    - EPC1  |EPC1                            |D0   |D0\n' +
+  '    - EPC2  |EPC2                            |80   |Operation status\n' +
+  '    - EPC3  |EPC3                            |81   |Installation location\n' +
+  '    - EPC4  |EPC4                            |82   |Standard version information\n' +
+  '    - EPC5  |EPC5                            |E3   |E3\n' +
+  '    - EPC6  |EPC6                            |83   |Identification number\n' +
+  '    - EPC7  |EPC7                            |F5   |F5\n' +
+  '    - EPC8  |EPC8                            |F6   |F6\n' +
+  '    - EPC9  |EPC9                            |86   |Manufacturer’s fault code\n' +
+  '    - EPC10 |EPC10                           |E7   |E7\n' +
+  '    - EPC11 |EPC11                           |97   |Current time setting\n' +
+  '    - EPC12 |EPC12                           |E8   |E8\n' +
+  '    - EPC13 |EPC13                           |98   |Current date setting\n' +
+  '    - EPC14 |EPC14                           |88   |Fault status\n' +
+  '    - EPC15 |EPC15                           |89   |Fault description\n' +
+  '    - EPC16 |EPC16                           |8A   |Manufacturer code\n' +
+  '    - EPC17 |EPC17                           |8C   |Product code\n' +
+  '    - EPC18 |EPC18                           |9D   |Status change announcement property map\n' +
+  '    - EPC19 |EPC19                           |8D   |Production number\n' +
+  '    - EPC20 |EPC20                           |9E   |Set property map\n' +
+  '    - EPC21 |EPC21                           |9F   |Get property map'
